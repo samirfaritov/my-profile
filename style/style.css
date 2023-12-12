@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+}
+
+.conteiner .content {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yOV9kaWdpdGFsX2lsbHVzdHJhdGlvbl9vZl9hX2dpYW50X2RyYWdvbl9pbl9hX182MjEwN2FkMS0wYzM5LTQ2NWItOTc1Ni0yODJmNzkzNDc0ZTFfMS5qcGc.jpg');
+    background-size: 100% 100%;
+    padding: 200px 30px;
+}
+
+
+.conteiner .content .logo {
+    display: grid;
+    gap: 20px;
+}
+
+.conteiner .content .logo .item {
+    width: 100%;
+    height: 80px;
+    border: 1px solid transparent;
+}
+
+.conteiner .content .logo .item .inst {
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+.conteiner .content .logo .item .fac {
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    background-image: url('https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-round-color-icon.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+.conteiner .content .logo .item .tele {
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+a {
+    font-size: 40px;
+    position: absolute;
+    left: 130px;
+    top: 15px;
+    color: #fff;
+}
